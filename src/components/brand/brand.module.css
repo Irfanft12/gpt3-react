@@ -1,0 +1,17 @@
+.brandContainer {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.brandContainerInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brandContainerInner  img {
+    height: 24px;
+    margin: 1rem;
+}

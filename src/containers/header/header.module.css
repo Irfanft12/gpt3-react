@@ -1,0 +1,148 @@
+.gpt3Header {
+    display: flex;
+}
+
+.gpt3HeaderContent {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.gpt3HeaderContent h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    margin: 0 0 2rem;
+}
+
+.gpt3HeaderContent p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #81AFDD;
+}
+
+.emailbox {
+    width: 100%;
+    display: flex;
+    margin: 2rem 0 1rem;
+}
+
+.emailbox input {
+    background: var(--color-footer);
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid var(--color-footer);
+    padding: 20px;
+    display: inline;
+    flex: 1;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.emailbox input::-webkit-input-placeholder { /* Edge */
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+  
+.emailbox input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+  
+.emailbox input::placeholder {
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+
+.emailbox button {
+    background: #FF4820;
+    border-radius: 0px 5px 5px 0px;
+    border: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.gpt3HeaderContentPeople {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.gpt3HeaderContentPeople img {
+    margin-right: 1rem;
+}
+
+.gpt3HeaderContentPeople p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.gpt3HeaderImage {
+    flex: 1;
+}
+
+.gpt3HeaderImage img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3Header {
+        flex-direction: column;
+    }
+
+    .gpt3HeaderContent {
+        margin: 0 0 3rem;
+    }
+
+    .gpt3HeaderContentPeople img {
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3HeaderContent h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .gpt3HeaderContent p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .gpt3HeaderContentPeople {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .emailbox input,
+    .emailbox button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,64 @@
+.gpt3Blog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.gpt3Blog h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+    flex: .5;
+    width: 65%;
+    margin: 5rem 0 5rem;
+}
+
+.gpt3Blog h1 span {
+    display: block;
+}
+
+.blogsContainer {
+    display: flex;
+    align-items: stretch;
+}
+
+.blogsContainerGroupA {
+    flex: 1;
+    margin-right: 1.5rem;
+    display: flex;
+}
+
+.blogsContainerGroupB {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+@media screen and (max-width: 700px) {
+    .blogsContainer {
+        flex-direction: column;
+    }
+
+    .blogsContainerGroupB {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+    }
+
+    .gpt3Blog h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .blogsContainerGroupA {
+        flex: 1;
+        margin-right: 0rem;
+        margin-bottom: 1.5rem;
+    }
+
+}

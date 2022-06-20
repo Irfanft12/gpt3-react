@@ -1,0 +1,107 @@
+.gpt3Footer {
+    background: #031B34;
+}
+
+.footerHeading {
+    margin: 0 6rem 2rem;
+}
+
+.footerHeading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin: 0 0 3rem;
+}
+
+.footerHeadingLink {
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footerHeadingLink a {
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #ffffff;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: flex-start;
+    margin: 6rem 0;
+}
+
+.footerLogoWrapper {
+    flex: .6;
+    margin: 0 15rem 0 0;
+}
+
+.footerLogoWrapper img {
+    margin: 0 0 1rem;
+}
+
+.footerLogoWrapper p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.footerContentLinksWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.footerContentLinksGroup ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerContentLinksGroup ul li {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    margin: 0 0 .5rem;
+}
+
+.footerContentLinksGroup ul li a {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+}
+
+.footerCopyrights {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .footerHeading {
+        margin: 0 0 1rem;
+    }
+
+    .footerHeading h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .footerContent {
+        flex-direction: column;
+    }
+
+    .footerLogoWrapper {
+        flex: 1;
+        margin: 0 4rem 1rem 0;
+    }
+}
