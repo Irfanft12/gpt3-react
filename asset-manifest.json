@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/gpt3-react/static/css/main.c6df0eef.css",
+    "main.js": "/gpt3-react/static/js/main.e501cde0.js",
+    "static/media/ai.png": "/gpt3-react/static/media/ai.73939f7a8c00b88ec221.png",
+    "static/media/feature-image.png": "/gpt3-react/static/media/feature-image.e685de02939616d109da.png",
+    "static/media/blog1.png": "/gpt3-react/static/media/blog1.b8c594107c0678715afa.png",
+    "static/media/blog3.png": "/gpt3-react/static/media/blog3.09c400fc78c96e4ff788.png",
+    "static/media/blog4.png": "/gpt3-react/static/media/blog4.2f7565c893499d0f39f0.png",
+    "static/media/blog5.png": "/gpt3-react/static/media/blog5.e2cd2c3bcda87df5181f.png",
+    "static/media/blog2.png": "/gpt3-react/static/media/blog2.4575fb47b66fd76940b0.png",
+    "static/media/people.png": "/gpt3-react/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/dropbox.png": "/gpt3-react/static/media/dropbox.74056b966ce8bd5829b6.png",
+    "static/media/atlassian.png": "/gpt3-react/static/media/atlassian.b300970d4dad69eef066.png",
+    "static/media/logo.svg": "/gpt3-react/static/media/logo.6572e27528262f56475eb4c1e8c2fea4.svg",
+    "index.html": "/gpt3-react/index.html",
+    "main.c6df0eef.css.map": "/gpt3-react/static/css/main.c6df0eef.css.map",
+    "main.e501cde0.js.map": "/gpt3-react/static/js/main.e501cde0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6df0eef.css",
+    "static/js/main.e501cde0.js"
+  ]
+}
