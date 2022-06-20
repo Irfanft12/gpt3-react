@@ -1,10 +1,33 @@
-import React from "react"
+import React, { useState } from "react"
+import { FaAngleUp } from "react-icons/fa"
 
 import styles from "./footer.module.css"
 
 import logo from "../../assets/logo.svg"
 
 export default function Footer() {
+
+    const [visible, setVisible] = useState(false)
+
+    const toggleVisible = () => {
+        const scrolled = document.documentElement.scrollTop
+        if (scrolled > 300) {
+            console.log(true)
+            setVisible(true)
+        } else {
+            setVisible(false)
+            console.log(false)
+        }
+    }
+
+    window.addEventListener("scroll", toggleVisible)
+
+    const scrollTopBtn = (
+            <a href="#" className={styles.scrollToTop}>
+                <FaAngleUp />
+            </a>
+    )
+
     return (
         <footer className={`${styles.gpt3Footer} section__padding gpt3Footer`}>
             <div className={styles.footerHeading}>
@@ -51,6 +74,9 @@ export default function Footer() {
             <div className={styles.footerCopyrights}>
              © 2021 GPT-3. All rights reserved.
             </div>
+            {
+                visible && scrollTopBtn
+            }
         </footer>
     )
 }

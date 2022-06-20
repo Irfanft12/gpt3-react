@@ -86,6 +86,18 @@
     text-align: center;
 }
 
+.scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+}
+
 @media screen and (max-width: 700px) {
     .footerHeading {
         margin: 0 0 1rem;
