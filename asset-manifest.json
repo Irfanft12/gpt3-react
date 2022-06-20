@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gpt3-react/static/css/main.c6df0eef.css",
-    "main.js": "/gpt3-react/static/js/main.e501cde0.js",
+    "main.css": "/gpt3-react/static/css/main.1c8b1cc5.css",
+    "main.js": "/gpt3-react/static/js/main.634ea3f7.js",
     "static/media/ai.png": "/gpt3-react/static/media/ai.73939f7a8c00b88ec221.png",
     "static/media/feature-image.png": "/gpt3-react/static/media/feature-image.e685de02939616d109da.png",
     "static/media/blog1.png": "/gpt3-react/static/media/blog1.b8c594107c0678715afa.png",
@@ -14,11 +14,11 @@
     "static/media/atlassian.png": "/gpt3-react/static/media/atlassian.b300970d4dad69eef066.png",
     "static/media/logo.svg": "/gpt3-react/static/media/logo.6572e27528262f56475eb4c1e8c2fea4.svg",
     "index.html": "/gpt3-react/index.html",
-    "main.c6df0eef.css.map": "/gpt3-react/static/css/main.c6df0eef.css.map",
-    "main.e501cde0.js.map": "/gpt3-react/static/js/main.e501cde0.js.map"
+    "main.1c8b1cc5.css.map": "/gpt3-react/static/css/main.1c8b1cc5.css.map",
+    "main.634ea3f7.js.map": "/gpt3-react/static/js/main.634ea3f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6df0eef.css",
-    "static/js/main.e501cde0.js"
+    "static/css/main.1c8b1cc5.css",
+    "static/js/main.634ea3f7.js"
   ]
 }
